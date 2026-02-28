@@ -1,4 +1,4 @@
-# 🎬 YouTube Shorts Automation
+# 🎬 Shorts Video Automation
 
 Automatically generate complete, publish-ready YouTube Shorts from a single topic string. The pipeline writes a script with AI, downloads matching stock footage, synthesizes a voiceover, transcribes subtitles, and composes the final video — all without touching a video editor.
 
@@ -230,7 +230,7 @@ class Config:
 
     VIDEO_WIDTH:    int  = 1080
     VIDEO_HEIGHT:   int  = 1920   # 9:16 vertical
-    VIDEO_DURATION: int  = 45     # Target seconds
+    VIDEO_DURATION: int  = 45     # Target seconds, but duration depends upon the audio generated
     FPS:            int  = 30
 
     PIPER_MODEL: str = "piper/en_US-lessac-medium.onnx"
