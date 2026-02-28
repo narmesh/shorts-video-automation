@@ -1,6 +1,6 @@
 """
 Batch Video Generator
-Generate multiple YouTube Shorts from a list of topics
+Generate multiple Shorts Videos from a list of topics
 """
 
 import json
