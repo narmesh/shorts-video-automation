@@ -1,0 +1,25 @@
+# ============================================================
+# Shorts Video Automation — Python Dependencies
+# Install with: pip install -r requirements.txt
+# ============================================================
+
+# --- AI / API ---
+groq>=0.9.0                  # Script generation (Groq LLM API)
+
+# --- Video editing ---
+moviepy>=1.0.3               # Video composition and editing
+opencv-python>=4.8.0         # Frame-level subtitle rendering (no ImageMagick needed)
+
+# --- Image processing ---
+Pillow>=9.0.0                # Required by MoviePy (patched for v10+ compatibility)
+numpy>=1.24.0                # Array operations for frame processing
+
+# --- HTTP / APIs ---
+requests>=2.31.0             # Pixabay video search/download + AssemblyAI subtitle API
+
+# --- Web interface (optional) ---
+flask>=3.0.0                 # Web UI (only needed for web_interface.py)
+
+# --- Audio ---
+# Piper TTS is a standalone binary — install separately (see README)
+# ffmpeg is a system binary — install separately (see README)
