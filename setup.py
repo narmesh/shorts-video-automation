@@ -11,6 +11,7 @@ setup(
     name="shorts-video-automation",
     version="1.0.0",
     author="Narmesh Kumar Sah",
+    author_email="info@narmeshverse.com",
     description="Automatically generate Shorts Video using AI, stock video, and TTS",
     long_description=long_description,
     long_description_content_type="text/markdown",
