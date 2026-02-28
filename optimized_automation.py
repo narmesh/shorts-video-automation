@@ -1,5 +1,5 @@
 """
-Optimized YouTube Shorts Automation with Advanced Features
+Optimized Shorts Video Automation with Advanced Features
 - Caching for faster repeated topics
 - Parallel video downloads
 - Progress tracking
